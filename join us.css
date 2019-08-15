@@ -1,0 +1,92 @@
+* {
+    text-transform: capitalize;
+    box-sizing: border-box
+}
+/* start of navbar */
+
+nav {
+    background-color: sandybrown;
+    overflow: hidden;
+   
+}
+
+
+nav header h3 {
+    
+    padding-left: 20px;
+    float: left;
+    font-size: 20px;
+    cursor: default
+}
+h3::first-letter {
+    font-size: 40px;
+    background-color: black;
+    color: sandybrown;
+    border-radius: 10px
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    overflow: hidden  
+}
+
+nav ul li {
+    float: left;
+    padding: 15px;
+    overflow: hidden
+}
+
+nav ul li:hover {
+    background-color: chocolate;
+    cursor: pointer
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+       background-color:#EDBB99;
+
+}
+
+section .container h5 {
+    text-align: center
+}
+
+form {
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+input[type=text],input[type=email],input[type=password] {
+    margin: 10px;
+    display: block;
+    padding: 10px;
+    width: 95%;
+    background-color: #F8C471
+    
+}
+
+
+
+button  {
+    margin-left: 43%;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: block;
+    background-color: #F0B27A;
+    cursor: pointer;
+        
+}
+
+button:active {
+    background-color: #CA6F1E;
+    border: none
+}
+

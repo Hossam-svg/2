@@ -1,0 +1,117 @@
+* {
+    text-transform: capitalize
+}
+/* start of navbar */
+
+nav {
+    background-color: sandybrown;
+    overflow: hidden;
+   
+}
+
+
+nav header h3 {
+    
+    padding-left: 20px;
+    float: left;
+    font-size: 20px;
+    cursor: default
+}
+h3::first-letter {
+    font-size: 40px;
+    background-color: black;
+    color: sandybrown;
+    border-radius: 10px
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    overflow: hidden  
+}
+
+nav ul li {
+    float: left;
+    padding: 15px;
+    overflow: hidden
+}
+
+nav ul li:hover {
+    background-color: chocolate;
+    cursor: pointer
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+ .container {
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+       background-color:#EDBB99;
+
+}
+
+.container h2 {
+    text-align: center;
+    
+}
+
+table ,tr ,th ,td {
+    border: 1px solid black
+}
+
+th, td {
+    padding: 15px
+}
+
+th {
+    text-align: left
+}
+
+table {
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+td, th {
+    background-color: #F0B27A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+    padding-left: 50px
+}
+
+p {
+    padding-left: 40px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+
+
